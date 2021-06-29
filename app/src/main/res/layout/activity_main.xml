@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:text="Meditation App"
+       />
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/image1"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:src="@drawable/n1"
+            android:layout_margin="5dp"
+            />
+        <ImageButton
+            android:id="@+id/image2"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/n2"
+            />
+    </LinearLayout>
+   <LinearLayout
+       android:layout_marginTop="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <ImageButton
+           android:id="@+id/image3"
+           android:layout_width="175dp"
+           android:layout_height="175dp"
+           android:layout_margin="5dp"
+           android:padding="5dp"
+           android:src="@drawable/n3"
+           />
+       <ImageButton
+           android:id="@+id/image4"
+           android:layout_width="175dp"
+           android:layout_height="175dp"
+           android:layout_margin="5dp"
+           android:padding="5dp"
+           android:src="@drawable/n4"
+           />
+   </LinearLayout>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
